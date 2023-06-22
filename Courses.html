@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TUS - Courses</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 10px;
+      padding: 20px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+    }
+
+    nav ul li a:hover {
+      border-bottom: 4px solid #fff;
+      transition: all 0.2s ease-out;
+    }
+
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    .container p {
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container.courses-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .course-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .course-item h2 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+
+    .course-item p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="logo.png" alt="University Search Logo" width="30px" height="30px"></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="universities.html">Universities</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="scholarships.html">Scholarships</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Explore Courses in Tanzanian Universities</h1>
+      <p>Browse through a variety of courses from the leading universities in Tanzania. Discover the perfect course that aligns with your academic interests and career goals.</p>
+      <img src="admissions.jpg" alt="" width="450px" height="300px"> <img src="find course 3.jpeg" alt="" width="450px" height="300px"> <br>
+    </section>
+
+    <section class="container courses-list">
+      <!-- Begin course item -->
+      <div class="course-item">
+        <h2>Computer Science</h2>
+        <p>Offered by: University of Tanzania</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: A comprehensive course that covers fundamental concepts in computer science, including programming, data structures, algorithms, and computer architecture.</p>
+      </div>
+      <!-- End course item -->
+
+      <!-- Course 2 -->
+      <div class="course-item">
+        <h2>Business Administration</h2>
+        <p>Offered by: Dar es Salaam University</p>
+        <p>Level: Graduate</p>
+        <p>Description: A course designed to equip students with advanced knowledge in business strategy, marketing, finance, and management.</p>
+      </div>
+      <!-- End course item -->
+
+      <!-- Course 3 -->
+      <div class="course-item">
+        <h2>Environmental Science</h2>
+        <p>Offered by: Zanzibar University</p>
+        <p>Level: PhD</p>
+        <p>Description: A research-intensive course focusing on the study of environmental systems and the solutions to environmental challenges.</p>
+      </div>
+      <!-- End course item -->
+      <!-- Course 4 -->
+      <div class="course-item">
+        <h2>Chemistry</h2>
+        <p>Offered by: University of Dar es Salaam</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: This program provides a thorough grounding in all the key areas of Chemistry.</p>
+      </div>
+  
+      <!-- Course 5 -->
+      <div class="course-item">
+        <h2>Physics</h2>
+        <p>Offered by: Ardhi University</p>
+        <p>Level: Graduate</p>
+        <p>Description: A course that dives into the principles of Quantum Mechanics and Thermodynamics.</p>
+      </div>
+  
+      <!-- Course 6 -->
+      <div class="course-item">
+        <h2>Literature</h2>
+        <p>Offered by: Nelson Mandela African Institute</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: This course delves into African literature, focusing on Tanzania's cultural and literary contribution.</p>
+      </div>
+  
+      <!-- Course 7 -->
+      <div class="course-item">
+        <h2>Architecture</h2>
+        <p>Offered by: Mbeya University</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: The program aims to inspire students to become innovative thinkers and problem solvers in architecture.</p>
+      </div>
+  
+      <!-- Course 8 -->
+      <div class="course-item">
+        <h2>Mathematics</h2>
+        <p>Offered by: Nelson Mandela African Institute</p>
+        <p>Level: PhD</p>
+        <p>Description: A research-focused program that allows students to explore the depths of mathematical theories.</p>
+      </div>
+  
+      <!-- Course 9 -->
+      <div class="course-item">
+        <h2>Biology</h2>
+        <p>Offered by: Nelson Mandela African Institute</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: This program offers a deep dive into the biological sciences, with a special focus on microbiology and genetics.</p>
+      </div>
+  
+      <!-- Course 10 -->
+      <div class="course-item">
+        <h2>Psychology</h2>
+        <p>Offered by: Ardhi University</p>
+        <p>Level: Graduate</p>
+        <p>Description: This course explores the human mind and behavior, with modules on child development and cognitive psychology.</p>
+      </div>
+  
+      <!-- Course 11 -->
+      <div class="course-item">
+        <h2>History</h2>
+        <p>Offered by: University of Dar es Salaam</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: The course provides a comprehensive overview of African and global history, with a particular emphasis on Tanzania's historical events.</p>
+      </div>
+  
+      <!-- Course 12 -->
+      <div class="course-item">
+        <h2>Engineering</h2>
+        <p>Offered by: Nelson Mandela African Institute</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: A program that equips students with a strong foundation in engineering principles.</p>
+      </div>
+  
+      <!-- Course 13 -->
+      <div class="course-item">
+        <h2>English</h2>
+        <p>Offered by: Ardhi University</p>
+        <p>Level: Graduate</p>
+        <p>Description: This course focuses on language mastery, critical reading, and composition skills.</p>
+      </div>
+  
+      <!-- Course 14 -->
+      <div class="course-item">
+        <h2>International Relations</h2>
+        <p>Offered by: University of Dar es Salaam</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: This course equips students with an understanding of the complex world of international politics and economics.</p>
+      </div>
+  
+      <!-- Course 15 -->
+      <div class="course-item">
+        <h2>Economics</h2>
+        <p>Offered by: Ardhi University</p>
+        <p>Level: Graduate</p>
+        <p>Description: A course that dives into micro and macroeconomics, econometrics, and international trade and finance.</p>
+      </div>
+  
+      <!-- Course 16 -->
+      <div class="course-item">
+        <h2>Philosophy</h2>
+        <p>Offered by: Nelson Mandela African Institute</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: This program provides a deep exploration of philosophical theories from a range of eras and cultures.</p>
+      </div>
+  
+      <!-- Course 17 -->
+      <div class="course-item">
+        <h2>Anthropology</h2>
+        <p>Offered by: Mbeya University</p>
+        <p>Level: Undergraduate</p>
+        <p>Description: The program offers a comprehensive study of human societies, cultures, and their development.</p>
+      </div>
+  
+      <!-- Course 18 -->
+      <div class="course-item">
+        <h2>Geography</h2>
+        <p>Offered by: Nelson Mandela African Institute</p>
+        <p>Level: PhD</p>
+        <p>Description: A research-focused program focusing on both physical geography and human-environment interactions.</p>
+      </div>
+      <!-- Add more course items by copying the "course-item" structure above and replacing the placeholder content with real course information. -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Tanzania University Search. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
